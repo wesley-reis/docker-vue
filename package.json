@@ -3,7 +3,9 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "serve": "vue-cli-service serve",
+    "dev": "vue-cli-service serve",
+    "serve-start": "sudo docker-compose up -d",
+    "serve-stop": "sudo docker-compose down",
     "build": "vue-cli-service build"
   },
   "dependencies": {
